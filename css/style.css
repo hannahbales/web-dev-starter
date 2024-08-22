@@ -1,4 +1,40 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f9f0ff; 
+  color: #2f0538; 
+  text-align: center; 
+}
+
+h1 {
+  font-size: 3em; 
+  color: #ad00e6; 
+  text-shadow: 2px 2px #ccc; 
+}
+
+img {
+  border-radius: 50%; 
+  border: 3px solid #ad00e6; 
+  width: 150px; 
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+  font-size: 1.2em; 
+}
+
+button {
+  background-color: #ad00e6; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  font-size: 1.2em; 
+  cursor: pointer; 
+  box-shadow: 3px 3px 5px #aaa; 
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #620281; 
 }
